@@ -1,0 +1,158 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(/images/opened-book-with-flying-pages-butterflies-dark-backgroundgenerative-ai_391052-12859.jpeg);
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #9a6f6f;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #7a4747;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Other styling rules */
+
+
+/* ... (previous styling) ... */
+
+.browse-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tutors-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tutor-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.session-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: #f4f4f4;
+    opacity: 70%;
+    padding: 50px 0;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form button {
+    background-color: #040404;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* ... (previous styling) ... */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* ... (rest of the styling) ... */
+
+/* ... (rest of the styling) ... */

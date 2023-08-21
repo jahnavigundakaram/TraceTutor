@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Tutoring</title>
+    <link rel="stylesheet" href="online-tutoring.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="request-tutor.html">Request a Tutor</a></li>
+                <li><a href="browse-by.html">Browse By</a></li>
+                <li><a href="login-signup.html">Login / Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Online Tutoring</h1>
+        <p>Learn from experienced tutors in an interactive online environment.</p>
+    </section>
+    
+    <section class="tutoring-options">
+        <div class="tutoring-option">
+            <h2>Live Video Sessions</h2>
+            <p>Connect with tutors in real-time video sessions.</p>
+        </div>
+        <div class="tutoring-option">
+            <h2>Flexible Scheduling</h2>
+            <p>Choose sessions that fit your schedule.</p>
+        </div>
+        <div class="tutoring-option">
+            <h2>Interactive Learning</h2>
+            <p>Engage in interactive discussions and exercises.</p>
+            <button class="book-session-button">Book a Session</button>
+        </div>
+    </section>
+
+
+<!-- Modal for booking a session -->
+<div class="modal" id="sessionModal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <h2>Book a Session</h2>
+        <form id="sessionForm">
+            <!-- Add form fields for session booking -->
+            <label for="sessionDate">Choose a Date:</label>
+            <input type="date" id="sessionDate" required>
+            <label for="sessionTime">Choose a Time:</label>
+            <input type="time" id="sessionTime" required>
+            <button type="submit">Book</button>
+        </form>
+    </div>
+</div>
+
+<script src="online-tutoring.js"></script>
+</body>
+</html>

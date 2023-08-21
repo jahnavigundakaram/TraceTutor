@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Tutor</title>
+    <link rel="stylesheet" href="request-tutor.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="online-tutoring.html">Online Tutoring</a></li>
+                <li><a href="browse-by.html">Browse By</a></li>
+                <li><a href="login-signup.html">Login / Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="request-form">
+        <h1>Request a Tutor</h1>
+        <form>
+            <div class="form-control">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+                <small class="error-message"></small>
+            </div>
+            
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <small class="error-message"></small>
+            </div>
+            
+            <div class="form-control">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" required>
+                <small class="error-message"></small>
+            </div>
+            
+            <div class="form-control">
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" required></textarea>
+                <small class="error-message"></small>
+            </div>
+            
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+    
+    <script src="request-tutor.js"></script>
+</body>
+</html>

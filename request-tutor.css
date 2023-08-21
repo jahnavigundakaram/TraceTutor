@@ -1,0 +1,110 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.request-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.request-form h1 {
+    margin-bottom: 20px;
+}
+
+.request-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.request-form input,
+.request-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.request-form textarea {
+    resize: vertical;
+}
+
+.request-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* ... (previous styling) ... */
+
+.form-control {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-control.error input,
+.form-control.error textarea {
+    border-color: #ff0000;
+}
+
+.form-control.success input,
+.form-control.success textarea {
+    border-color: #00ff00;
+}
+
+.form-control small.error-message {
+    color: #ff0000;
+    display: block;
+    margin-top: 5px;
+}
+
+/* ... (rest of the styling) ... */
+
+/* Other styling rules */
