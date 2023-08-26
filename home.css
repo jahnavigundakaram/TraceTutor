@@ -7,31 +7,51 @@ body, h1, h2, h3, p, ul, li, form {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(/images/opened-book-with-flying-pages-butterflies-dark-backgroundgenerative-ai_391052-12859.jpeg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(128,0,128,1.0), rgba(128,0,128,1.0)),url(images/thought.jpg);
+    /*background-position: center;
+    background-size: cover;*/
+    position: relative;
 }
 
 header {
-    background-color: #333;
-    color: #9a6f6f;
+    background-color: rgba(128,0,128,1.0) ;
     padding: 10px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav img {
+    max-width: 60%;
+    height: 100px;
+ 
 }
 
 nav ul {
     list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
 }
 
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image: linear-gradient(rgba(128,0,128,1.0), rgba(0,0,50,0.8)),url(images/thought.jpg);
     background-size: cover;
-    color: #7a4747;
+    color: #D8BFD8;
     text-align: center;
-    padding: 100px 0;
+    padding: 170px 0;
 }
 
 .hero h1 {
@@ -50,34 +70,34 @@ nav ul li {
 
 .browse-link {
     display: inline-block;
-    background-color: #333;
-    color: #fff;
+    background-color: #9A4EAE ;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     margin-top: 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.tutors-section {
+/*.tutors-section {
     padding: 50px 0;
     text-align: center;
 }
 
-.tutor-card {
-    border: 1px solid #ccc;
+/*.tutor-card {
+    border: 1px solid #9e7bb3;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.tutor-card img {
+/*.tutor-card img {
     max-width: 100%;
     height: auto;
 }
 
-.session-button {
-    background-color: #333;
+/*.session-button {
+    background-color: #0e0a0f;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -85,7 +105,7 @@ nav ul li {
     border-radius: 5px;
 }
 
-.newsletter {
+/*.newsletter {
     text-align: center;
     background-color: #f4f4f4;
     opacity: 70%;
@@ -106,7 +126,7 @@ nav ul li {
 }
 
 .newsletter-form button {
-    background-color: #040404;
+    background-color: rgb(11, 6, 12);
     color: #fff;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -117,13 +137,14 @@ nav ul li {
 /* ... (previous styling) ... */
 
 footer {
-    background-color: #333;
+    background-color: #481550 ;
     color: #fff;
-    padding: 20px 0;
+    padding: 42px 0;
+    
 }
 
 .footer-content {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +165,7 @@ footer {
 }
 
 .footer-links a {
-    color: #fff;
+    color: #301934;
     text-decoration: none;
 }
 
@@ -152,7 +173,6 @@ footer {
     display: inline-block;
     margin-right: 10px;
 }
-
 /* ... (rest of the styling) ... */
 
 /* ... (rest of the styling) ... */
